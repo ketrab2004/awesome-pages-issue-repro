@@ -1,0 +1,23 @@
+site_name: awesome-pages issue repro
+
+site_url: https://localhost:8000/
+
+nav:
+    - Home: index.md
+    - Documentation:
+        - Main: documentation/main.md
+        - Systems:
+            - ... | flat | documentation/systems/*
+        - Plugins: documentation/plugins.md
+    - Other: other.md
+    - ... | extras/*
+
+theme:
+  name: material
+
+plugins:
+  - awesome-pages:
+      filename: none
+      order: desc
+      sort_type: natural
+      strict: true

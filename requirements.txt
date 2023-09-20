@@ -1,0 +1,8 @@
+# Documentation static site generator
+mkdocs ~= 1.2.3
+
+# Add your custom theme if not inside a theme_dir
+# (https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes)
+mkdocs-material ~= 8.0
+
+mkdocs-awesome-pages-plugin ~= 2.9.2
